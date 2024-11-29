@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Morgan\\Mario Test 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\goomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|C:\\Users\\Morgan\\Mario Test 2\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\spritenumberdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|c:\\users\\morgan\\mario test 2\\assets\\scripts\\player\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|C:\\Users\\Morgan\\Mario Test 2\\assets\\scripts\\spritenumberdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spritenumberdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|C:\\Users\\Morgan\\Mario Test 2\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|C:\\Users\\Morgan\\Mario Test 2\\assets\\scripts\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|C:\\Users\\Morgan\\Mario Test 2\\assets\\scripts\\goomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA725EF1-4ADB-5243-3389-62FA49A7A541}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,46 +42,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA5wDkAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T01:21:09.73Z",
+              "WhenOpened": "2024-11-29T01:28:04.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CharacterController2D.cs",
+              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\CharacterController2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CharacterController2D.cs",
+              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\CharacterController2D.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\CharacterController2D.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:23:52.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:23:42.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SpriteNumberDisplay.cs",
               "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\SpriteNumberDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteNumberDisplay.cs",
               "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\SpriteNumberDisplay.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpriteNumberDisplay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T00:58:21.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T23:24:51.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Goomba.cs",
               "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\Goomba.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Goomba.cs",
@@ -89,32 +115,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Goomba.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwDoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:17:40.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:07:46.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CharacterController2D.cs",
-              "DocumentMoniker": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\CharacterController2D.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterController2D.cs",
-              "ToolTip": "C:\\Users\\Morgan\\Mario Test 2\\Assets\\Scripts\\CharacterController2D.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterController2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T23:07:45.36Z"
+              "WhenOpened": "2024-11-28T23:17:40.522Z"
             }
           ]
         }
