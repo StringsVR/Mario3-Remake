@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        GetPlayerPrefsToValues();
         GameObject player = SpawnPlayer();
         SetCinema(player);
         _timerAmount = m_maxTimerAmount;
@@ -46,6 +47,19 @@ public class GameManager : MonoBehaviour
         player.transform.position = m_spawnPoint.transform.position;
         player.transform.name = "Player";
         return player;
+    }
+
+    private void WritePlayerPrefsToValues()
+    {
+        PlayerPrefs.SetInt("Lives", this._currentLives);
+        PlayerPrefs.SetInt("Coins", this._coinAmount);
+        PlayerPrefs.Save();
+    }
+
+    private void GetPlayerPrefsToValues()
+    {
+        this._currentLives = PlayerPrefs.GetInt("Lives", 5);
+        this._coinAmount = PlayerPrefs.GetInt("Coins", 0);
     }
 
     public CinemachineVirtualCamera getCam()
@@ -71,10 +85,8 @@ public class GameManager : MonoBehaviour
     //Load Game Level
     public void LoadLevel(int level)
     {
-        if (_currentLives > 0)
-        {
-            SceneManager.LoadScene(level);
-        }
+        setLevelForReset(level);
+        SceneManager.LoadScene(0);
     }
 
     //Set and Get Protected Values
@@ -132,5 +144,22 @@ public class GameManager : MonoBehaviour
     public GameObject GetPlayer()
     {
         return GameObject.Find("Player");
+    }
+
+    public void PlayerDied()
+    {
+        if (_currentLives > 1)
+        {
+            _coinAmount = 0;
+            _currentLives--;
+
+            WritePlayerPrefsToValues();
+            LoadLevel(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    private void setLevelForReset(int level)
+    {
+        GameObject.Find("LevelPasser").GetComponent<LevelPasser>().SetLevel(level);
     }
 }

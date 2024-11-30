@@ -69,7 +69,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
         //Reset level
-        gameManager.LoadLevel(SceneManager.GetActiveScene().buildIndex);
+        gameManager.PlayerDied();
         // Deactivate the player
         gameObject.SetActive(false);
     }

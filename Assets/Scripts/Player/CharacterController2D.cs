@@ -159,7 +159,15 @@ public class CharacterController2D : MonoBehaviour
         if (m_Grounded && jump && !m_isSliding)
         {
             m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
-            m_Rigidbody2D.AddForce(new Vector2(0f, sprinting ? m_sprintJumpForce : m_JumpForce));
+			if (sprinting && move == 0)
+			{
+                m_Rigidbody2D.AddForce(new Vector2(0f, m_sprintJumpForce));
+            }
+			else
+			{
+                m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            }
+
         }
     }
 
