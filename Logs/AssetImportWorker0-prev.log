@@ -1,0 +1,837 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.49f1 (4dae1bb8668d) revision 5090843'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16009 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Morgan/Mario Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59015
+Successfully changed project path to: C:/Users/Morgan/Mario Test 2
+C:/Users/Morgan/Mario Test 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2172]  Target information:
+
+Player connection [2172]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4022645927 [EditorId] 4022645927 [Version] 1048832 [Id] WindowsEditor(7,RandyLT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172]  * "[IP] 10.0.0.210 [Port] 0 [Flags] 2 [Guid] 4022645927 [EditorId] 4022645927 [Version] 1048832 [Id] WindowsEditor(7,RandyLT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 21.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.49f1 (4dae1bb8668d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Morgan/Mario Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     8004 MB
+    Driver:   32.0.101.6130
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017433 seconds.
+- Loaded All Assemblies, in  0.569 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.416 seconds
+Domain Reload Profiling: 979ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (417ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.215 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.961 seconds
+Domain Reload Profiling: 3171ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (820ms)
+		LoadAssemblies (614ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (364ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1962ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1092ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 14.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5776 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (1.0 MB). Loaded Objects now: 6229.
+Memory consumption went from 222.3 MB to 221.4 MB.
+Total: 8.985400 ms (FindLiveObjects: 0.659300 ms CreateObjectMapping: 0.421600 ms MarkObjects: 7.116400 ms  DeleteObjects: 0.785800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 838864.483095 seconds.
+  path: Assets/Prefabs/ActivePipe.prefab
+  artifactKey: Guid(612f2570f0b4742419de81a696a8a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActivePipe.prefab using Guid(612f2570f0b4742419de81a696a8a474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24d03dacc96d4133525fe4a2e934cd94') in 0.662647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 86.132949 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88f9b5e7ea0719b90ac62081ac51e597') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.455242 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88335f846f38511955e1f312f24f27f6') in 0.002438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.529759 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a13bf09f5a1ba6453ea23e69abca85e') in 0.001043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.971435 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc71c10a184b0fa264a5cc04253ac190') in 0.001007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.420304 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001108 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:20:04.1764168Z' while content on disk has modification time of '2024-11-30T19:20:04.3766071Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:20:04.1764168Z' while content on disk has modification time of '2024-11-30T19:20:04.3766071Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015339 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be0d97529e53d9fac32f71ee0f2998ef') in 0.001567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.869939 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b188a396f9cb5cb22f1ffb6e9525b2e1') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.042668 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81495b1b7f299cf4c9457436bf2ede91') in 0.002265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.433420 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3068c40887864918f393261fc8ecf047') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.322696 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'adfae54edff7b60aadd9527d49263e81') in 0.002215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.738715 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000823 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:08.8013156Z' while content on disk has modification time of '2024-11-30T19:21:09.0386406Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:08.8013156Z' while content on disk has modification time of '2024-11-30T19:21:09.0386406Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044083 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7af4c8f3dc716becf09d4c19b11a648c') in 0.001352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.759845 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000985 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:18.657908Z' while content on disk has modification time of '2024-11-30T19:21:18.8909544Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:18.657908Z' while content on disk has modification time of '2024-11-30T19:21:18.8909544Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022655 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e766ab82b9f044812446b1fa73809957') in 0.001489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.199990 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000971 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:44.9636977Z' while content on disk has modification time of '2024-11-30T19:21:45.1303114Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:21:44.9636977Z' while content on disk has modification time of '2024-11-30T19:21:45.1303114Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024862 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6215ff839225ea82c1a1be3743fc94e6') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.106390 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff1344c28853a5b24affb168bd985fdb') in 0.001189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.513675 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81405a7521378e8633d8e68f0ea493f9') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.604418 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ffc39cb5305743f7fc88b7932909d736') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.248443 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9e8f58af05d557927b4b6555a76ec17') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.278447 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001005 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:23:23.8614615Z' while content on disk has modification time of '2024-11-30T19:23:24.0385682Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:23:23.8614615Z' while content on disk has modification time of '2024-11-30T19:23:24.0385682Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016499 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3e09ec5aefb7f5a98c310649325442d') in 0.000939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.926660 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61cac2968149bb629346bcfd158b5a4e') in 0.001075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.712812 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a0dcf433caa1a4f16cc62dda5a506864') in 0.001860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.111293 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000953 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:03.7968167Z' while content on disk has modification time of '2024-11-30T19:24:03.95531Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:03.7968167Z' while content on disk has modification time of '2024-11-30T19:24:03.95531Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014082 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eb54ab6ff3b4b89fdb091a8bd9da379') in 0.001478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.193699 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '711f6deb2d1c08a305894827dd299606') in 0.002425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.323438 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfeedd45f15bc9f06cd76d45411c0ff1') in 0.001086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.944022 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001792 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:14.3772689Z' while content on disk has modification time of '2024-11-30T19:24:14.5533856Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:14.3772689Z' while content on disk has modification time of '2024-11-30T19:24:14.5533856Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031679 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d737ed022d77f9d479aa4db6295ce30') in 0.001906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.949049 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001768 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:21.4071146Z' while content on disk has modification time of '2024-11-30T19:24:21.6172293Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:24:21.4071146Z' while content on disk has modification time of '2024-11-30T19:24:21.6172293Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017899 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5bb5866d18c44e2325d8e1b4a069830') in 0.001668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 120.872904 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee75da0143b35aa144e390b17fc6737b') in 0.001861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.158501 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17c122222726dc18c6e634bb9329f1eb') in 0.001399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.052819 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001485 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:26:43.6400081Z' while content on disk has modification time of '2024-11-30T19:26:43.8325929Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:26:43.6400081Z' while content on disk has modification time of '2024-11-30T19:26:43.8325929Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022144 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2388634389f34c1ad0903d0cfc33c1fe') in 0.001797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.784749 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d35a77524c03470f122d2eb7e1be741') in 0.001939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.346977 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '903115207e06d4a277e13f01a36c38db') in 0.001078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.148874 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01e604f42c151235b1a3fe70759193d4') in 0.001210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.661547 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '407a7a40ed657f64ea3ea4e1c3a30da3') in 0.002163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.290170 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b76fede816f0964909fdbf27bab476e5') in 0.001158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.118944 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e1637dee22cdb8b84d89ecbf6342863') in 0.001870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 34.497774 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001829 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:30:11.8167446Z' while content on disk has modification time of '2024-11-30T19:30:12.0114183Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:30:11.8167446Z' while content on disk has modification time of '2024-11-30T19:30:12.0114183Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016949 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd8675cfcd77053d43529c410810ce1c') in 0.001394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.731896 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f93d030acc6330507570e8df7596f44') in 0.002401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.111510 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3294d1c01dd3ea19dc965c8a83cfb6bb') in 0.001483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.736816 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '568988ce1e59e82a86df3fa97a9f3f43') in 0.001220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.172223 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2029844a718e8a8f397eeebd097911f2') in 0.001060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 53.274942 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95feee8532bafaaf28c5754fafab42dc') in 0.001687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.017982 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f56ddd4292d51bcb3497366d17a47ab3') in 0.002102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.991463 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2607f92f57e616c0591c65a00cd8dbd') in 0.001144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 91.360095 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0976c4f0de09ef3c80bb6977d04394f7') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.425233 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02387ccd39f5eaf56591cded0e4de9bf') in 0.001144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.899143 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000742 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:34:45.8591109Z' while content on disk has modification time of '2024-11-30T19:34:46.0498981Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:34:45.8591109Z' while content on disk has modification time of '2024-11-30T19:34:46.0498981Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039386 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9effaed97f9496f5bad010380dc0b97') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 74.151071 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001158 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:36:00.0052815Z' while content on disk has modification time of '2024-11-30T19:36:00.2599376Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:36:00.0052815Z' while content on disk has modification time of '2024-11-30T19:36:00.2599376Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.411079 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000906 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:36:00.0052815Z' while content on disk has modification time of '2024-11-30T19:36:00.2599376Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:36:00.0052815Z' while content on disk has modification time of '2024-11-30T19:36:00.2599376Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039621 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df3b61f6a3689edb61bc7861d169fa7e') in 0.000987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.766975 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f186311a63ca71bc4e3836a61cec825') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.254691 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47b53db8fbac37334ca9f636530b32cc') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.202966 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44fc2b06afb9f0784447b592918e0ea2') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.525508 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c982b88df8753fb0f70425dad27de4e') in 0.000912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.868635 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000671 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:37:31.2480709Z' while content on disk has modification time of '2024-11-30T19:37:31.4188259Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:37:31.2480709Z' while content on disk has modification time of '2024-11-30T19:37:31.4188259Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.462631 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:37:31.2480709Z' while content on disk has modification time of '2024-11-30T19:37:31.4188259Z'
+  ERROR: Build asset version error: assets/scripts/activepipe.cs in SourceAssetDB has modification time of '2024-11-30T19:37:31.2480709Z' while content on disk has modification time of '2024-11-30T19:37:31.4188259Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057485 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bfe0c28c1fa1ccecd9c26657d5afb727') in 0.001003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.682880 seconds.
+  path: Assets/Scripts/ActivePipe.cs
+  artifactKey: Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActivePipe.cs using Guid(1ad1717d54b44594e8a8eeebc171af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0e8e782cb7039cf4c8b5194a7b56f80') in 0.000678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

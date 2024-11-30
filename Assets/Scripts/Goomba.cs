@@ -10,6 +10,7 @@ public class Goomba : MonoBehaviour
     [SerializeField] private float bounceForce = 5f;            // How high goomba should bounce
 
     private Rigidbody2D rb;
+    private Vector2 pos;
     private Animator anim;
     private GameManager gameManager;
     private bool dying = false;
@@ -58,6 +59,7 @@ public class Goomba : MonoBehaviour
             // Check if the player is above the Goomba
             if (collision.contacts[0].normal.y < -0.1f)
             {
+                pos = transform.position;
                 if (!dying)
                 {
                     // Player stomps the Goomba
@@ -92,6 +94,14 @@ public class Goomba : MonoBehaviour
         // Destroy the Goomba
         dying = true;
         anim.SetBool("Squished", true);
+
+        float waitTime = 0.6f;
+        float timer = 0f;
+        while (timer < waitTime)
+        {
+            transform.position = pos;
+            timer += Time.deltaTime;
+        }
     }
 
     public void DestroyGoomba()

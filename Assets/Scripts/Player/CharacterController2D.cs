@@ -11,7 +11,8 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private bool m_AirControl = false;                         // Whether or not a player can steer while jumping;
 	[SerializeField] private float m_slidingActiveForce;						// What speed should the player start sliding?
 	[SerializeField] private float m_slideFacor;								// How much the player will slide
-    [SerializeField] private float m_slideThreshold;							// How much velocity until the slide stops
+    [SerializeField] private float m_slideThreshold;                            // How much velocity until the slide stops
+	[SerializeField] private float m_slideSpeedThreshold;
     [SerializeField] private LayerMask m_WhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform m_GroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform m_CeilingCheck;							// A position marking where to check for ceilings
@@ -30,6 +31,7 @@ public class CharacterController2D : MonoBehaviour
 	private float wasMove = 0;
     private float jumpTimeCounter;		// Timer to track jump duration
     private bool isJumping;             // Whether the player is currently jumping
+	public float timeRunning = 0f;
 
     [System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -61,6 +63,7 @@ public class CharacterController2D : MonoBehaviour
 
 	public void Move(float move, bool crouch, bool jump, bool sprinting)
 	{
+
 		// If crouching, check to see if the character can stand up
 		if (!crouch)
 		{
@@ -104,6 +107,7 @@ public class CharacterController2D : MonoBehaviour
             Vector3 targetVelocity;
             if (Mathf.Abs(move) > 0.01f && !m_isSliding)
             {
+				timeRunning += Time.fixedDeltaTime;
                 // When there's input, set target velocity directly
                 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
                 m_isSliding = false;

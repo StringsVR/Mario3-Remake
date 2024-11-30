@@ -101,7 +101,7 @@ MonoBehaviour:
   m_animationBumpHeight: 0.3
   m_animationSpeed: 0.1
   m_luckyBlockSprite: {fileID: 2041968913, guid: d1b259ca1611f4b499b014141793f657, type: 3}
-  m_luckyBlockSprite2: {fileID: 515138524, guid: d1b259ca1611f4b499b014141793f657, type: 3}
+  m_luckyBlockSprite2: {fileID: 1563649890, guid: d1b259ca1611f4b499b014141793f657, type: 3}
   m_luckyDrop: {fileID: 5313640180462406859, guid: 733e707715bc30841995d3dc13a166ae, type: 3}
 --- !u!61 &5657275986175525919
 BoxCollider2D:
